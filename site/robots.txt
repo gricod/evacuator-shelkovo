@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /thanks.html
+
+Sitemap: https://YOUR-DOMAIN.ru/sitemap.xml
+
+Host: https://YOUR-DOMAIN.ru
