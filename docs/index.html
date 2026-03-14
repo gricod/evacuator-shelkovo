@@ -13,7 +13,7 @@
     <meta name="author" content="Эвакуатор Щёлково 24/7">
     <link rel="canonical" href="https://YOUR-DOMAIN.ru/">
 
-    <!-- Yandex Verification (замените на свой код) -->
+    <!-- Yandex Verification -->
     <meta name="yandex-verification" content="YOUR_YANDEX_VERIFICATION_CODE">
 
     <!-- Open Graph -->
@@ -34,9 +34,14 @@
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚛</text></svg>">
 
-    <!-- Preload critical resources -->
+    <!-- Preload -->
     <link rel="preload" href="css/style.css" as="style">
     <link rel="preload" href="img/video_thumb_02.jpg" as="image">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <!-- Styles -->
     <link rel="stylesheet" href="css/style.css">
@@ -188,16 +193,27 @@
 
             <nav class="header__nav" id="nav">
                 <a href="#services" class="header__link">Услуги</a>
+                <a href="#how-it-works" class="header__link">Как работаем</a>
                 <a href="#gallery" class="header__link">Автопарк</a>
                 <a href="#reviews" class="header__link">Отзывы</a>
                 <a href="#area" class="header__link">Зона работы</a>
                 <a href="#faq" class="header__link">FAQ</a>
             </nav>
 
-            <a href="tel:+79266662311" class="header__phone">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-                +7 (926) 666-23-11
-            </a>
+            <div class="header__actions">
+                <div class="header__messengers">
+                    <a href="https://wa.me/79266662311?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9D%D1%83%D0%B6%D0%B5%D0%BD%20%D1%8D%D0%B2%D0%B0%D0%BA%D1%83%D0%B0%D1%82%D0%BE%D1%80." target="_blank" rel="noopener" class="header__messenger" aria-label="WhatsApp">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                    </a>
+                    <a href="https://t.me/+79266662311" target="_blank" rel="noopener" class="header__messenger" aria-label="Telegram">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0012 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 01.171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.479.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+                    </a>
+                </div>
+                <a href="tel:+79266662311" class="header__phone">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                    +7 (926) 666-23-11
+                </a>
+            </div>
 
             <button class="header__burger" id="burger" aria-label="Меню">
                 <span></span><span></span><span></span>
@@ -208,50 +224,60 @@
     <main>
         <!-- ===== HERO ===== -->
         <section class="hero" id="hero">
-            <div class="hero__overlay"></div>
+            <div class="hero__bg"></div>
+            <div class="hero__particles" id="particles"></div>
             <div class="container hero__inner">
-                <div class="hero__badge animate-fade-in">Круглосуточно, без выходных</div>
-                <h1 class="hero__title animate-fade-in-up">
-                    Эвакуатор в Щёлково<br>
-                    <span class="accent">подача от 15 минут</span>
-                </h1>
-                <p class="hero__subtitle animate-fade-in-up delay-1">
-                    Быстрая и аккуратная эвакуация автомобилей. Сдвижная платформа, лебёдка.
-                    Без скрытых доплат.
-                </p>
+                <div class="hero__content">
+                    <div class="hero__badge animate-fade-in">
+                        <span class="hero__badge-dot"></span>
+                        Работаем прямо сейчас
+                    </div>
+                    <h1 class="hero__title animate-fade-in-up">
+                        Ваш надёжный эвакуатор<br>
+                        <span class="accent">в Щёлково и области</span>
+                    </h1>
+                    <p class="hero__subtitle animate-fade-in-up delay-1">
+                        Быстрая и аккуратная эвакуация автомобилей на сдвижной платформе.
+                        Подача от 15 минут. Без скрытых доплат.
+                    </p>
 
-                <div class="hero__price animate-fade-in-up delay-2">
-                    от <span class="hero__price-value">2 000</span> ₽
+                    <div class="hero__cta-group animate-fade-in-up delay-2">
+                        <a href="tel:+79266662311" class="btn btn--accent btn--lg">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                            Вызвать эвакуатор
+                        </a>
+                        <div class="hero__messengers">
+                            <a href="https://wa.me/79266662311?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9D%D1%83%D0%B6%D0%B5%D0%BD%20%D1%8D%D0%B2%D0%B0%D0%BA%D1%83%D0%B0%D1%82%D0%BE%D1%80." target="_blank" rel="noopener" class="btn btn--whatsapp">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                                WhatsApp
+                            </a>
+                            <a href="https://t.me/+79266662311" target="_blank" rel="noopener" class="btn btn--telegram">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0012 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 01.171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.479.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+                                Telegram
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="hero__buttons animate-fade-in-up delay-2">
-                    <a href="https://wa.me/79266662311?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9D%D1%83%D0%B6%D0%B5%D0%BD%20%D1%8D%D0%B2%D0%B0%D0%BA%D1%83%D0%B0%D1%82%D0%BE%D1%80." target="_blank" rel="noopener" class="btn btn--whatsapp">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-                        WhatsApp
-                    </a>
-                    <a href="https://t.me/+79266662311" target="_blank" rel="noopener" class="btn btn--telegram">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0012 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 01.171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.479.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
-                        Telegram
-                    </a>
-                </div>
-
-                <a href="tel:+79266662311" class="hero__phone animate-fade-in-up delay-3">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-                    +7 (926) 666-23-11
-                </a>
-
-                <div class="hero__trust animate-fade-in-up delay-3">
-                    <div class="hero__trust-item">
-                        <strong>24/7</strong>
-                        <span>Без выходных</span>
+                <div class="hero__stats animate-fade-in-up delay-3">
+                    <div class="hero__stat">
+                        <div class="hero__stat-value">15<span>мин</span></div>
+                        <div class="hero__stat-label">Подача эвакуатора</div>
                     </div>
-                    <div class="hero__trust-item">
-                        <strong>4.8 ★</strong>
-                        <span>Рейтинг</span>
+                    <div class="hero__stat-divider"></div>
+                    <div class="hero__stat">
+                        <div class="hero__stat-value">2 000<span>₽</span></div>
+                        <div class="hero__stat-label">Минимальная цена</div>
                     </div>
-                    <div class="hero__trust-item">
-                        <strong>6</strong>
-                        <span>Способов оплаты</span>
+                    <div class="hero__stat-divider"></div>
+                    <div class="hero__stat">
+                        <div class="hero__stat-value">24<span>/7</span></div>
+                        <div class="hero__stat-label">Без выходных</div>
+                    </div>
+                    <div class="hero__stat-divider"></div>
+                    <div class="hero__stat">
+                        <div class="hero__stat-value">4.8<span>★</span></div>
+                        <div class="hero__stat-label">Рейтинг на Яндексе</div>
                     </div>
                 </div>
             </div>
@@ -260,12 +286,17 @@
         <!-- ===== SERVICES ===== -->
         <section class="services" id="services">
             <div class="container">
-                <h2 class="section-title reveal">Услуги и цены</h2>
-                <p class="section-subtitle reveal">Прозрачные тарифы без скрытых доплат. Точную стоимость назовём по телефону за 1 минуту.</p>
+                <div class="section-header reveal">
+                    <span class="section-label">Наши услуги</span>
+                    <h2 class="section-title">Услуги и цены</h2>
+                    <p class="section-subtitle">Прозрачные тарифы без скрытых доплат. Точную стоимость назовём по телефону за 1 минуту.</p>
+                </div>
 
                 <div class="services__grid">
                     <div class="service-card reveal">
-                        <div class="service-card__icon">🏙️</div>
+                        <div class="service-card__icon-wrap">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="3" width="15" height="13" rx="2"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+                        </div>
                         <h3 class="service-card__title">Эвакуатор по Щёлково</h3>
                         <p class="service-card__desc">Эвакуация по городу и Щёлковскому району. Подача от 15 минут.</p>
                         <div class="service-card__price">от <span>2 000</span> ₽</div>
@@ -273,7 +304,9 @@
                     </div>
 
                     <div class="service-card reveal">
-                        <div class="service-card__icon">🛣️</div>
+                        <div class="service-card__icon-wrap">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+                        </div>
                         <h3 class="service-card__title">На Щёлковском шоссе</h3>
                         <p class="service-card__desc">Заберём с обочины, из кювета, после ДТП. Подача от 10 минут.</p>
                         <div class="service-card__price">от <span>2 000</span> ₽</div>
@@ -281,7 +314,9 @@
                     </div>
 
                     <div class="service-card reveal">
-                        <div class="service-card__icon">🔧</div>
+                        <div class="service-card__icon-wrap">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
+                        </div>
                         <h3 class="service-card__title">Сдвижная платформа</h3>
                         <p class="service-card__desc">Аккуратная погрузка любого автомобиля. Безопасно для кузова и подвески.</p>
                         <div class="service-card__price">от <span>2 000</span> ₽</div>
@@ -289,7 +324,9 @@
                     </div>
 
                     <div class="service-card reveal">
-                        <div class="service-card__icon">📍</div>
+                        <div class="service-card__icon-wrap">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        </div>
                         <h3 class="service-card__title">Эвакуатор Фрязино</h3>
                         <p class="service-card__desc">Эвакуация по Фрязино и в другие города. Подача от 20 минут.</p>
                         <div class="service-card__price">от <span>2 500</span> ₽</div>
@@ -297,7 +334,9 @@
                     </div>
 
                     <div class="service-card reveal">
-                        <div class="service-card__icon">⚠️</div>
+                        <div class="service-card__icon-wrap">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                        </div>
                         <h3 class="service-card__title">Эвакуация после ДТП</h3>
                         <p class="service-card__desc">Лебёдка для повреждённых авто. Заберём из любого положения.</p>
                         <div class="service-card__price">от <span>2 500</span> ₽</div>
@@ -305,7 +344,9 @@
                     </div>
 
                     <div class="service-card reveal">
-                        <div class="service-card__icon">🏁</div>
+                        <div class="service-card__icon-wrap">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>
+                        </div>
                         <h3 class="service-card__title">Щёлково — Москва</h3>
                         <p class="service-card__desc">Доставка в любой район Москвы. Щёлковское и Ярославское шоссе.</p>
                         <div class="service-card__price">от <span>3 500</span> ₽</div>
@@ -318,29 +359,94 @@
         <!-- ===== HOW IT WORKS ===== -->
         <section class="how" id="how-it-works">
             <div class="container">
-                <h2 class="section-title reveal">Как это работает</h2>
-                <p class="section-subtitle reveal">Три простых шага — и ваш автомобиль в нужном месте</p>
+                <div class="section-header reveal">
+                    <span class="section-label">Процесс</span>
+                    <h2 class="section-title section-title--light">Как это работает</h2>
+                    <p class="section-subtitle section-subtitle--light">Три простых шага — и ваш автомобиль в нужном месте</p>
+                </div>
 
                 <div class="how__steps">
                     <div class="how__step reveal">
-                        <div class="how__step-num">1</div>
-                        <div class="how__step-icon">📞</div>
+                        <div class="how__step-num">01</div>
+                        <div class="how__step-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                        </div>
                         <h3>Напишите нам</h3>
                         <p>Свяжитесь через WhatsApp или Telegram. Назовите адрес и марку автомобиля. Мы мгновенно назовём точную цену.</p>
                     </div>
-                    <div class="how__step-arrow reveal">→</div>
+                    <div class="how__step-connector reveal"></div>
                     <div class="how__step reveal">
-                        <div class="how__step-num">2</div>
-                        <div class="how__step-icon">🚛</div>
-                        <h3>Подача за 15–20 мин</h3>
+                        <div class="how__step-num">02</div>
+                        <div class="how__step-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="3" width="15" height="13" rx="2"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+                        </div>
+                        <h3>Подача за 15-20 мин</h3>
                         <p>Ближайший эвакуатор выезжает сразу. Сдвижная платформа, аккуратная погрузка без повреждений.</p>
                     </div>
-                    <div class="how__step-arrow reveal">→</div>
+                    <div class="how__step-connector reveal"></div>
                     <div class="how__step reveal">
-                        <div class="how__step-num">3</div>
-                        <div class="how__step-icon">✅</div>
+                        <div class="how__step-num">03</div>
+                        <div class="how__step-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                        </div>
                         <h3>Доставка</h3>
                         <p>Доставим автомобиль в автосервис, на стоянку или по любому нужному адресу. Оплата по факту.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== WHY US (6 reasons) ===== -->
+        <section class="reasons" id="reasons">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-label">Преимущества</span>
+                    <h2 class="section-title">Почему выбирают нас</h2>
+                    <p class="section-subtitle">6 причин доверить нам эвакуацию вашего автомобиля</p>
+                </div>
+
+                <div class="reasons__grid">
+                    <div class="reason-card reveal">
+                        <div class="reason-card__icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                        </div>
+                        <h3>Быстрая подача</h3>
+                        <p>От 15 минут по Щёлково. От 10 минут на Щёлковском шоссе. Выезжаем сразу после звонка.</p>
+                    </div>
+                    <div class="reason-card reveal">
+                        <div class="reason-card__icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83 0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+                        </div>
+                        <h3>Честные цены</h3>
+                        <p>Называем точную стоимость по телефону. Без скрытых доплат, без сюрпризов при оплате.</p>
+                    </div>
+                    <div class="reason-card reveal">
+                        <div class="reason-card__icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                        </div>
+                        <h3>Аккуратная погрузка</h3>
+                        <p>Сдвижная платформа — золотой стандарт эвакуации. Автомобиль не получит ни царапины.</p>
+                    </div>
+                    <div class="reason-card reveal">
+                        <div class="reason-card__icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                        </div>
+                        <h3>Круглосуточно</h3>
+                        <p>Работаем в дождь, снег, мороз до -30°C. 24/7, без выходных и праздников. Без ночных доплат.</p>
+                    </div>
+                    <div class="reason-card reveal">
+                        <div class="reason-card__icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+                        </div>
+                        <h3>Консультация</h3>
+                        <p>Подскажем, что делать дальше: куда отвезти, какой сервис выбрать. Бесплатно.</p>
+                    </div>
+                    <div class="reason-card reveal">
+                        <div class="reason-card__icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+                        </div>
+                        <h3>6 способов оплаты</h3>
+                        <p>Наличные, карта, перевод, СБП, QR-код, безналичный расчёт. Как вам удобно.</p>
                     </div>
                 </div>
             </div>
@@ -349,8 +455,11 @@
         <!-- ===== GALLERY ===== -->
         <section class="gallery" id="gallery">
             <div class="container">
-                <h2 class="section-title section-title--light reveal">Наш автопарк в работе</h2>
-                <p class="section-subtitle section-subtitle--light reveal">Реальные фото наших заказов — эвакуируем любые автомобили в любых условиях</p>
+                <div class="section-header reveal">
+                    <span class="section-label section-label--light">Портфолио</span>
+                    <h2 class="section-title section-title--light">Наш автопарк в работе</h2>
+                    <p class="section-subtitle section-subtitle--light">Реальные фото наших заказов — эвакуируем любые автомобили в любых условиях</p>
+                </div>
 
                 <div class="gallery__grid">
                     <div class="gallery__item reveal">
@@ -384,144 +493,146 @@
         <!-- ===== REVIEWS ===== -->
         <section class="reviews" id="reviews">
             <div class="container">
-                <h2 class="section-title reveal">Отзывы клиентов</h2>
-                <div class="reviews__rating reveal">
-                    <div class="reviews__stars">★★★★★</div>
-                    <div class="reviews__score">4.8 <span>/ 5.0</span></div>
-                    <div class="reviews__count">на основе 17 отзывов на Яндекс Картах</div>
+                <div class="section-header reveal">
+                    <span class="section-label">Отзывы</span>
+                    <h2 class="section-title">Что говорят клиенты</h2>
                 </div>
 
-                <div class="reviews__grid">
-                    <div class="review-card reveal">
-                        <div class="review-card__header">
-                            <div class="review-card__avatar">М</div>
-                            <div>
-                                <div class="review-card__name">Михаил Д.</div>
-                                <div class="review-card__stars">★★★★★</div>
-                            </div>
+                <div class="reviews__platforms reveal">
+                    <a href="https://yandex.ru/maps/org/117586873400/reviews/" target="_blank" rel="noopener" class="reviews__platform">
+                        <div class="reviews__platform-name">Яндекс Карты</div>
+                        <div class="reviews__platform-rating">
+                            <span class="reviews__platform-score">4.8</span>
+                            <div class="reviews__platform-stars">★★★★★</div>
                         </div>
-                        <p class="review-card__text">Приехал эвакуатор быстро, водитель приятный и спокойный, все объяснил, проконсультировал по каждому вопросу. Подсказал как дальше поступить, дал много полезных советов. Я в восторге, спасибо!</p>
-                    </div>
+                        <div class="reviews__platform-count">17 отзывов</div>
+                    </a>
+                </div>
 
-                    <div class="review-card reveal">
-                        <div class="review-card__header">
-                            <div class="review-card__avatar">А</div>
-                            <div>
-                                <div class="review-card__name">Андрей Волков</div>
-                                <div class="review-card__stars">★★★★★</div>
+                <div class="reviews__carousel" id="reviewsCarousel">
+                    <div class="reviews__track" id="reviewsTrack">
+                        <div class="review-card">
+                            <div class="review-card__header">
+                                <div class="review-card__avatar">М</div>
+                                <div>
+                                    <div class="review-card__name">Михаил Д.</div>
+                                    <div class="review-card__stars">★★★★★</div>
+                                </div>
                             </div>
+                            <p class="review-card__text">Приехал эвакуатор быстро, водитель приятный и спокойный, все объяснил, проконсультировал по каждому вопросу. Подсказал как дальше поступить, дал много полезных советов. Я в восторге, спасибо!</p>
                         </div>
-                        <p class="review-card__text">Очень оперативно — в течении 5 минут прибыл на место. В условиях –20°C не пришлось долго ждать. За три минуты загрузил и доставил на место. Рекомендую!</p>
-                    </div>
 
-                    <div class="review-card reveal">
-                        <div class="review-card__header">
-                            <div class="review-card__avatar">Е</div>
-                            <div>
-                                <div class="review-card__name">Елена Кузнецова</div>
-                                <div class="review-card__stars">★★★★★</div>
+                        <div class="review-card">
+                            <div class="review-card__header">
+                                <div class="review-card__avatar">А</div>
+                                <div>
+                                    <div class="review-card__name">Андрей Волков</div>
+                                    <div class="review-card__stars">★★★★★</div>
+                                </div>
                             </div>
+                            <p class="review-card__text">Очень оперативно — в течении 5 минут прибыл на место. В условиях -20°C не пришлось долго ждать. За три минуты загрузил и доставил на место. Рекомендую!</p>
                         </div>
-                        <p class="review-card__text">Договорились, оперативно. Эвакуатор подъехал вовремя. Доставили машину в сервис без проблем. Никаких дополнительных доплат не было. Условиями доволен. Советую.</p>
-                    </div>
 
-                    <div class="review-card reveal">
-                        <div class="review-card__header">
-                            <div class="review-card__avatar">Д</div>
-                            <div>
-                                <div class="review-card__name">Дмитрий Соколов</div>
-                                <div class="review-card__stars">★★★★★</div>
+                        <div class="review-card">
+                            <div class="review-card__header">
+                                <div class="review-card__avatar">Е</div>
+                                <div>
+                                    <div class="review-card__name">Елена Кузнецова</div>
+                                    <div class="review-card__stars">★★★★★</div>
+                                </div>
                             </div>
+                            <p class="review-card__text">Договорились, оперативно. Эвакуатор подъехал вовремя. Доставили машину в сервис без проблем. Никаких дополнительных доплат не было. Условиями доволен. Советую.</p>
                         </div>
-                        <p class="review-card__text">Доступные цены на эвакуатор. Прозрачные тарифы без скрытых доплат. Быстро приехали, аккуратно погрузили и доставили. Обращайтесь — не пожалеете!</p>
+
+                        <div class="review-card">
+                            <div class="review-card__header">
+                                <div class="review-card__avatar">Д</div>
+                                <div>
+                                    <div class="review-card__name">Дмитрий Соколов</div>
+                                    <div class="review-card__stars">★★★★★</div>
+                                </div>
+                            </div>
+                            <p class="review-card__text">Доступные цены на эвакуатор. Прозрачные тарифы без скрытых доплат. Быстро приехали, аккуратно погрузили и доставили. Обращайтесь — не пожалеете!</p>
+                        </div>
+                    </div>
+                    <div class="reviews__nav">
+                        <button class="reviews__nav-btn reviews__nav-btn--prev" id="reviewsPrev" aria-label="Назад">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+                        </button>
+                        <div class="reviews__dots" id="reviewsDots"></div>
+                        <button class="reviews__nav-btn reviews__nav-btn--next" id="reviewsNext" aria-label="Вперёд">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+                        </button>
                     </div>
                 </div>
 
                 <a href="https://yandex.ru/maps/org/117586873400/reviews/" target="_blank" rel="noopener" class="reviews__all-link reveal">
-                    Все отзывы на Яндекс Картах →
+                    Все отзывы на Яндекс Картах
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
                 </a>
-            </div>
-        </section>
-
-        <!-- ===== ADVANTAGES ===== -->
-        <section class="advantages" id="advantages">
-            <div class="container">
-                <h2 class="section-title reveal">Почему выбирают нас</h2>
-
-                <div class="advantages__grid">
-                    <div class="advantage-card reveal">
-                        <div class="advantage-card__icon">⚡</div>
-                        <h3>Быстрая подача</h3>
-                        <p>От 15 минут по Щёлково. От 10 минут на Щёлковском шоссе. Выезжаем сразу после звонка.</p>
-                    </div>
-                    <div class="advantage-card reveal">
-                        <div class="advantage-card__icon">🌧️</div>
-                        <h3>Любая погода</h3>
-                        <p>Работаем в дождь, снег, мороз до –30°C. Наш эвакуатор всегда на ходу — проверено зимами.</p>
-                    </div>
-                    <div class="advantage-card reveal">
-                        <div class="advantage-card__icon">💰</div>
-                        <h3>Честные цены</h3>
-                        <p>Называем точную стоимость по телефону. Без скрытых доплат, без сюрпризов при оплате.</p>
-                    </div>
-                    <div class="advantage-card reveal">
-                        <div class="advantage-card__icon">🛡️</div>
-                        <h3>Аккуратная погрузка</h3>
-                        <p>Сдвижная платформа — золотой стандарт эвакуации. Автомобиль не получит ни царапины.</p>
-                    </div>
-                    <div class="advantage-card reveal">
-                        <div class="advantage-card__icon">💬</div>
-                        <h3>Консультация</h3>
-                        <p>Подскажем, что делать дальше: куда отвезти, какой сервис выбрать. Бесплатно.</p>
-                    </div>
-                    <div class="advantage-card reveal">
-                        <div class="advantage-card__icon">💳</div>
-                        <h3>6 способов оплаты</h3>
-                        <p>Наличные, карта, перевод, СБП, QR-код, безналичный расчёт. Как вам удобно.</p>
-                    </div>
-                </div>
             </div>
         </section>
 
         <!-- ===== SERVICE AREA ===== -->
         <section class="area" id="area">
             <div class="container">
-                <h2 class="section-title reveal">Зона обслуживания</h2>
-                <p class="section-subtitle reveal">Работаем по Щёлково, Щёлковскому району и всему востоку Подмосковья</p>
+                <div class="section-header reveal">
+                    <span class="section-label">География</span>
+                    <h2 class="section-title">Зона обслуживания</h2>
+                    <p class="section-subtitle">Работаем по Щёлково, Щёлковскому району и всему востоку Подмосковья</p>
+                </div>
 
                 <div class="area__content">
                     <div class="area__list reveal">
                         <div class="area__item">
-                            <div class="area__city">Щёлково и район</div>
+                            <div class="area__city">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                                Щёлково и район
+                            </div>
                             <div class="area__time">от 15 мин</div>
                         </div>
                         <div class="area__item">
-                            <div class="area__city">Щёлковское шоссе</div>
+                            <div class="area__city">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                                Щёлковское шоссе
+                            </div>
                             <div class="area__time">от 10 мин</div>
                         </div>
                         <div class="area__item">
-                            <div class="area__city">Балашиха</div>
-                            <div class="area__time">от 10–15 мин</div>
+                            <div class="area__city">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                                Балашиха
+                            </div>
+                            <div class="area__time">от 10-15 мин</div>
                         </div>
                         <div class="area__item">
-                            <div class="area__city">Фрязино</div>
-                            <div class="area__time">от 15–20 мин</div>
+                            <div class="area__city">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                                Фрязино
+                            </div>
+                            <div class="area__time">от 15-20 мин</div>
                         </div>
                         <div class="area__item">
-                            <div class="area__city">Ярославское шоссе</div>
+                            <div class="area__city">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                                Ярославское шоссе
+                            </div>
                             <div class="area__time">от 15 мин</div>
                         </div>
                         <div class="area__item">
-                            <div class="area__city">Москва (любой район)</div>
+                            <div class="area__city">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                                Москва (любой район)
+                            </div>
                             <div class="area__time">доставка</div>
                         </div>
                     </div>
 
                     <div class="area__map reveal">
                         <iframe
-                            src="https://yandex.ru/map-widget/v1/?z=12&ll=37.950779,55.927818&oid=117586873400"
+                            src="https://yandex.ru/map-widget/v1/?z=12&ol=biz&oid=117586873400"
                             width="100%"
-                            height="400"
+                            height="450"
                             frameborder="0"
                             allowfullscreen
                             loading="lazy"
@@ -535,7 +646,10 @@
         <!-- ===== FAQ ===== -->
         <section class="faq" id="faq">
             <div class="container">
-                <h2 class="section-title reveal">Частые вопросы</h2>
+                <div class="section-header reveal">
+                    <span class="section-label">Вопросы</span>
+                    <h2 class="section-title">Частые вопросы</h2>
+                </div>
 
                 <div class="faq__list">
                     <div class="faq__item reveal">
@@ -554,7 +668,7 @@
                             <svg class="faq__chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
                         </button>
                         <div class="faq__answer">
-                            <p>Среднее время подачи по Щёлково — 15–20 минут. На Щёлковском шоссе и в Балашихе — от 10 минут. Работаем круглосуточно без выходных.</p>
+                            <p>Среднее время подачи по Щёлково — 15-20 минут. На Щёлковском шоссе и в Балашихе — от 10 минут. Работаем круглосуточно без выходных.</p>
                         </div>
                     </div>
 
@@ -601,18 +715,18 @@
             </div>
         </section>
 
-        <!-- ===== CTA (финальный блок) ===== -->
+        <!-- ===== CTA ===== -->
         <section class="cta">
             <div class="container cta__inner">
                 <h2 class="cta__title reveal">Нужен эвакуатор?</h2>
                 <p class="cta__subtitle reveal">Напишите — ответим за 1 минуту и назовём точную цену</p>
                 <div class="cta__buttons reveal">
                     <a href="https://wa.me/79266662311?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9D%D1%83%D0%B6%D0%B5%D0%BD%20%D1%8D%D0%B2%D0%B0%D0%BA%D1%83%D0%B0%D1%82%D0%BE%D1%80." target="_blank" rel="noopener" class="btn btn--whatsapp btn--lg">
-                        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
                         Написать в WhatsApp
                     </a>
                     <a href="https://t.me/+79266662311" target="_blank" rel="noopener" class="btn btn--telegram btn--lg">
-                        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0012 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 01.171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.479.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0012 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 01.171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.479.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
                         Написать в Telegram
                     </a>
                 </div>
@@ -624,20 +738,28 @@
     <!-- ===== FOOTER ===== -->
     <footer class="footer">
         <div class="container footer__inner">
-            <div class="footer__col">
+            <div class="footer__col footer__col--main">
                 <div class="footer__logo">🚛 Эвакуатор <span class="accent">24/7</span></div>
                 <p class="footer__desc">Быстрая и аккуратная эвакуация автомобилей в Щёлково и Щёлковском районе. Круглосуточно, без выходных.</p>
+                <div class="footer__socials">
+                    <a href="https://wa.me/79266662311" target="_blank" rel="noopener" class="footer__social" aria-label="WhatsApp">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                    </a>
+                    <a href="https://t.me/+79266662311" target="_blank" rel="noopener" class="footer__social" aria-label="Telegram">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0012 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 01.171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.479.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+                    </a>
+                </div>
             </div>
             <div class="footer__col">
                 <h4>Контакты</h4>
-                <a href="tel:+79266662311" class="footer__link">📞 +7 (926) 666-23-11</a>
-                <a href="https://wa.me/79266662311" target="_blank" rel="noopener" class="footer__link">💬 WhatsApp</a>
-                <a href="https://t.me/+79266662311" target="_blank" rel="noopener" class="footer__link">✈️ Telegram</a>
+                <a href="tel:+79266662311" class="footer__link">+7 (926) 666-23-11</a>
+                <a href="https://wa.me/79266662311" target="_blank" rel="noopener" class="footer__link">WhatsApp</a>
+                <a href="https://t.me/+79266662311" target="_blank" rel="noopener" class="footer__link">Telegram</a>
             </div>
             <div class="footer__col">
                 <h4>Адрес</h4>
                 <p>Московская обл., г. Щёлково,<br>Центральная ул., 98</p>
-                <a href="https://yandex.ru/profile/-/CPBXVEoS" target="_blank" rel="noopener" class="footer__link">📍 Мы на Яндекс Картах</a>
+                <a href="https://yandex.ru/profile/-/CPBXVEoS" target="_blank" rel="noopener" class="footer__link footer__link--map">Мы на Яндекс Картах</a>
             </div>
             <div class="footer__col">
                 <h4>Услуги</h4>
@@ -649,7 +771,7 @@
         </div>
         <div class="footer__bottom">
             <div class="container">
-                <p>&copy; 2024–2026 Эвакуатор Щёлково 24/7. Все права защищены.</p>
+                <p>&copy; 2024-2026 Эвакуатор Щёлково 24/7. Все права защищены.</p>
             </div>
         </div>
     </footer>
@@ -657,15 +779,15 @@
     <!-- ===== STICKY MOBILE BUTTONS ===== -->
     <div class="sticky-bar" id="stickyBar">
         <a href="https://wa.me/79266662311?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9D%D1%83%D0%B6%D0%B5%D0%BD%20%D1%8D%D0%B2%D0%B0%D0%BA%D1%83%D0%B0%D1%82%D0%BE%D1%80." target="_blank" rel="noopener" class="sticky-bar__btn sticky-bar__btn--wa" aria-label="WhatsApp">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
             <span>WhatsApp</span>
         </a>
         <a href="tel:+79266662311" class="sticky-bar__btn sticky-bar__btn--call" aria-label="Позвонить">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
             <span>Звонок</span>
         </a>
         <a href="https://t.me/+79266662311" target="_blank" rel="noopener" class="sticky-bar__btn sticky-bar__btn--tg" aria-label="Telegram">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0012 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 01.171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.479.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0012 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 01.171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.479.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
             <span>Telegram</span>
         </a>
     </div>
