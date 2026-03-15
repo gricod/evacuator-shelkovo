@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 50" fill="none">
+  <!-- Truck cabin -->
+  <path d="M4 22 L4 38 L18 38 L18 20 L12 14 L4 14 Z" fill="#FF6B00" stroke="#E55D00" stroke-width="0.5"/>
+  <!-- Cabin window -->
+  <path d="M7 17 L11 17 L14 21 L7 21 Z" fill="#2B7FD4"/>
+  <!-- Cabin-to-platform connector -->
+  <rect x="18" y="28" width="4" height="10" fill="#FF6B00"/>
+  <!-- Hydraulic arm vertical -->
+  <rect x="19" y="16" width="3" height="16" rx="1" fill="#FFB800"/>
+  <!-- Platform base -->
+  <path d="M22 34 L22 38 L52 38 L56 34 Z" fill="#FFB800"/>
+  <!-- Platform surface -->
+  <path d="M22 30 L22 34 L56 34 L52 30 Z" fill="#FF6B00" opacity="0.6"/>
+  <!-- Rear wheel -->
+  <circle cx="11" cy="40" r="5" fill="#333"/>
+  <circle cx="11" cy="40" r="2.5" fill="#FF6B00"/>
+  <!-- Middle wheel -->
+  <circle cx="28" cy="40" r="5" fill="#333"/>
+  <circle cx="28" cy="40" r="2.5" fill="#FF6B00"/>
+  <!-- Rear small wheel -->
+  <circle cx="48" cy="40" r="4" fill="#333"/>
+  <circle cx="48" cy="40" r="2" fill="#FF6B00"/>
+  <!-- Bumper -->
+  <rect x="1" y="36" width="4" height="3" rx="1" fill="#FF6B00"/>
+  <!-- Headlight -->
+  <rect x="3" y="30" width="2" height="3" rx="0.5" fill="#FFB800"/>
+  <!-- Text: Эвакуатор -->
+  <text x="66" y="28" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF" letter-spacing="-0.3">Эвакуатор</text>
+  <!-- Text: 24/7 -->
+  <text x="198" y="28" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="18" font-weight="800" fill="#FF6B00" letter-spacing="-0.3">24/7</text>
+  <!-- Divider -->
+  <line x1="237" y1="14" x2="237" y2="38" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <!-- Text: Щёлково и МО -->
+  <text x="247" y="28" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="13" font-weight="500" fill="rgba(255,255,255,0.55)" letter-spacing="0.3">Щёлково и МО</text>
+</svg>
